@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Cryptoswap - A Blockchain-based Token Exchange
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to "Cryptoswap", a decentralized application (DApp) that enables secure and transparent cryptocurrency swapping. Built using React and smart contract technology, this project demonstrates a basic decentralized exchange (DEX) workflow.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+🚀 Features
 
-### `npm start`
+- ⚡ Swap tokens between Ethereum-compatible wallets
+- 🔐 Connect with MetaMask wallet
+- 📜 Smart contract integration
+- 🧮 Real-time token balance updates
+- 💻 Built using React for the frontend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🛠️ Tech Stack
 
-### `npm test`
+| Layer           | Technology                   |
+|----------------|-------------------------------|
+| Frontend       | React, JavaScript, HTML, CSS  |
+| Blockchain     | Solidity, Ethereum            |
+| Wallet Connect | MetaMask                      |
+| Build Tools    | Hardhat / Truffle             |
+| Web3 Integration | Ethers.js or Web3.js        |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+📁 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Cryptoswap/
+├── public/
+├── src/
+│ ├── components/
+│ ├── contracts/ # Smart contracts (e.g., Token.sol, Exchange.sol)
+│ ├── utils/
+│ ├── App.js
+│ └── index.js
+├── .gitignore
+├── package.json
+└── README.md
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🧑‍💻 Getting Started
 
-### `npm run eject`
+Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Node.js (v14+)
+- MetaMask browser extension
+- Ganache or any Ethereum testnet
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Installation-
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+git clone https://github.com/BhavikaDhami/Blockchain-project.git
+cd Blockchain-project
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Running Locally-
 
-## Learn More
+npm start
+Make sure your MetaMask is connected to the same local network or testnet your smart contract is deployed on.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📸 Screenshots
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![image](https://github.com/user-attachments/assets/035e9408-5ba2-4d22-97f7-7b2593d04308)
+![image](https://github.com/user-attachments/assets/efffc44e-3fc1-405f-a958-6208a35046f8)
+![image](https://github.com/user-attachments/assets/f8b882a1-d758-4218-8118-66000c0f717b)
+![image](https://github.com/user-attachments/assets/829feab6-7386-4b64-997d-2445baf50969)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+✨ Author
+Bhavika Dhami
+GitHub Profile
