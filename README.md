@@ -26,22 +26,6 @@ Welcome to "Cryptoswap", a decentralized application (DApp) that enables secure 
 
 ---
 
-📁 Project Structure
-
-Cryptoswap/
-├── public/
-├── src/
-│ ├── components/
-│ ├── contracts/ # Smart contracts (e.g., Token.sol, Exchange.sol)
-│ ├── utils/
-│ ├── App.js
-│ └── index.js
-├── .gitignore
-├── package.json
-└── README.md
-
----
-
 🧑‍💻 Getting Started
 
 Prerequisites
